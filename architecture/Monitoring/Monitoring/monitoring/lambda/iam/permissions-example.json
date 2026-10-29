@@ -1,0 +1,11 @@
+{
+"Version": "2012-10-17",
+"Statement": [
+{
+"Sid": "AlowRebootSpecificInstance",
+"Effect": "Allow",
+"Action": "ec2:RebootInstances",
+"Resource": "arn:aws:ec2:ap-south-1:123456789012:instance/i-0123456789abcdef0"
+}
+]
+}
